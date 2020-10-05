@@ -1,6 +1,6 @@
-# Clang-Visualizer
+# clang-tidy-htmlreport
 
-A visualizer for LLVM's linting tool: clang-tidy.
+Generates a HTML report from the console output from a clang-tidy run.
 
 ## Getting Started
 
@@ -45,10 +45,10 @@ Clone or fork this repository to run the script on your native system.
 The script takes in one file argument of a txt or log file with your outputted clang-tidy checks.
 
 ```
-python3 clang_visualizer.py [newfile.log]
+clang_tidy_htmlreport.py [newfile.log]
 ```
 
-Inside the same directory as clang_visualizer.py, you will find a new html file called 'clang.html'.
+Inside the same directory as `clang_tidy_htmlreport.py`, you will find a new html file called `clang-tidy-report.html`.
 
 An example html output can be found [here](https://austinbhale.com/Clang-Visualizer/examples/example.html).
 
